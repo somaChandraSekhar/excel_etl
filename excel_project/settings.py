@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-_w8tcrm(^n!2tl74t88-9hrz_8m&sxwmpt7krag@i1wi*bp0&2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',  # Likely already present
+    '127.0.0.1',  # Likely already present
+    'excel-etl.azurewebsites.net',
+]
 
 
 # Application definition
